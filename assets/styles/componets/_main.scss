@@ -1,0 +1,92 @@
+@import '../abstract/variaveis';
+
+main {
+    background-color: $cor-principal;
+    a{
+        text-decoration: none;
+    }
+    .main__titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 180px;
+        font-family: $font-principal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 100px;
+
+
+        .main__pesquisa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .main__pesquisa-box {
+                width: 1000px;
+                height: 40px;
+                background: url("/assets/img/64e14fe0195557e3f18ea3becba3169b-buscar-lupa\ 1.png");
+                background-repeat: no-repeat;
+                background-position-x: 10px;
+                background-position-y: center;
+                padding-left: 40px;
+                background-color: $cor-terciaria
+            }
+        }
+    }
+
+    .main__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .main__container-titulo {
+            font-family: $font-principal;
+            font-weight: 500;
+            font-size: 32px;
+        }
+
+        .main__container-imagem {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            
+            .main__container-madrid{
+                
+                padding: 100px 100px;
+                font-size: 25px;
+                font-weight: 400;
+                font-family: $font-principal;
+                color: $cor-terciaria;
+                text-shadow: black 0.1em 0.1em 0.2em;
+                background: url(/assets/img/image\ 1.png);
+                margin: 60px 50px;
+            }
+            .main__container-nova{
+                
+                padding: 100px 90px;
+                font-size: 25px;
+                font-weight: 400;
+                font-family: $font-principal;
+                color: $cor-terciaria;
+                text-shadow: black 0.1em 0.1em 0.2em;
+                background: url(/assets/img/image\ 2.png);
+                margin: 60px 50px;
+            }
+            .main__container-munich{
+                
+                padding: 100px 100px;
+                font-size: 25px;
+                font-weight: 400;
+                font-family: $font-principal;
+                color: $cor-terciaria;
+                text-shadow: black 0.1em 0.1em 0.2em;
+                background: url(/assets/img/image\ 3.png);
+                margin: 60px 50px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,84 @@
+@import '../abstract/variaveis';
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $cor-sucundaria;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .cabecalho__busca {
+        display: flex;
+        justify-content: center;
+        font-family: $font-secundaria;
+        background:#D9D9D9;
+        padding: 0.2rem;
+
+        .cabecalho__busca-pesquisa {
+            width: 635px;
+            background: url(/assets/img/64e14fe0195557e3f18ea3becba3169b-buscar-lupa\ 1.png) no-repeat 5px;
+            background-size: 15px;
+            padding-left: 2rem;
+
+        }
+    
+        .cabecalho__texto-busca{
+            color: #000000;
+        }
+    }
+
+    .cabecalho__texto{
+        padding-left: 0.9rem;
+    }
+
+    .cabecalho__botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-family: $font-principal;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #D9D9D9;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .cabecalho__idioma {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $cor-terciaria;
+        font-family: $font-principal;
+        text-transform: uppercase;
+
+    }
+
+    .cabecalho__usuario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $cor-terciaria;
+        font-family: $font-principal;
+        text-transform: uppercase;
+        
+        .cabecalho__usuario-imagem{
+            border: 2px solid $cor-terciaria;
+            border-radius: 50%;
+            width: 37px;
+        }
+    }
+
+
+
+}

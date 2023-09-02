@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jost&display=swap");
+.cabecalho {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #090C11;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.cabecalho a {
+  text-decoration: none;
+  color: inherit;
+}
+.cabecalho .cabecalho__busca {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background: #D9D9D9;
+  padding: 0.2rem;
+}
+.cabecalho .cabecalho__busca .cabecalho__busca-pesquisa {
+  width: 635px;
+  background: url(/assets/img/64e14fe0195557e3f18ea3becba3169b-buscar-lupa\ 1.png) no-repeat 5px;
+  background-size: 15px;
+  padding-left: 2rem;
+}
+.cabecalho .cabecalho__busca .cabecalho__texto-busca {
+  color: #000000;
+}
+.cabecalho .cabecalho__texto {
+  padding-left: 0.9rem;
+}
+.cabecalho .cabecalho__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #D9D9D9;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.cabecalho .cabecalho__idioma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+}
+.cabecalho .cabecalho__usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+}
+.cabecalho .cabecalho__usuario .cabecalho__usuario-imagem {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  width: 37px;
+}
+
+main {
+  background-color: #F2BEBE;
+}
+main a {
+  text-decoration: none;
+}
+main .main__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 180px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+main .main__titulo .main__pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main__titulo .main__pesquisa .main__pesquisa-box {
+  width: 1000px;
+  height: 40px;
+  background: url("/assets/img/64e14fe0195557e3f18ea3becba3169b-buscar-lupa 1.png");
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  padding-left: 40px;
+  background-color: #FFFFFF;
+}
+main .main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .main__container .main__container-titulo {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+main .main__container .main__container-imagem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main .main__container .main__container-imagem .main__container-madrid {
+  padding: 100px 100px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #FFFFFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: url(/assets/img/image\ 1.png);
+  margin: 60px 50px;
+}
+main .main__container .main__container-imagem .main__container-nova {
+  padding: 100px 90px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #FFFFFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: url(/assets/img/image\ 2.png);
+  margin: 60px 50px;
+}
+main .main__container .main__container-imagem .main__container-munich {
+  padding: 100px 100px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #FFFFFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background: url(/assets/img/image\ 3.png);
+  margin: 60px 50px;
+}/*# sourceMappingURL=styles.css.map */
